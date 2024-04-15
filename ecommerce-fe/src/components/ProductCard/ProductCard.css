@@ -1,0 +1,17 @@
+.sale-container {
+  position: absolute;
+  width: 3.5rem; /* Equivalent to width: 12rem; */
+  height: 2rem; /* Equivalent to height: 6rem; */
+  top: 0;
+  left: 0;
+  line-height: 2rem;
+  background-color: #f00; /* Equivalent to red-500 in Tailwind */
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.product-title {
+  height: 75px;
+}

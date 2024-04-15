@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-blue: rgba(33, 103, 221, 1);
+
+  --bg-white: rgb(255, 255, 255, 1);
+  --border-radius: 20px;
+  --bg-light-yellow: linear-gradient(
+    rgb(253, 246, 238) 0%,
+    rgb(253, 246, 238) 100%
+  );
+
+  --bg-gradient-blue: rgb(33 103 221 / 1);
+  --bg-light-gray: rgb(236, 235, 235);
+  --bg-light-blue: rgb(149, 170, 217);
+}
+body {
+  @apply font-base text-black;
+  font-family: "Inter", "Poppins", "Krona One", sans-serif;
+
+  background: var(--bg-light-gray);
+}
+
+.select-size {
+  width: 80px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  text-align: center;
+  color: white; /* Ví dụ: màu văn bản đen */
+}
+
+.select-size option {
+  color: black;
+}

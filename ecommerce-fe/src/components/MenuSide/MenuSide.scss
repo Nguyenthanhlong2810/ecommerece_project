@@ -1,0 +1,29 @@
+.menu-list {
+    position: fixed;
+    overflow-y:scroll;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(-100%);
+  }
+  
+  .visible {
+    transform: translateX(0%);
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Mờ đen */
+    z-index: 100;
+  }
+  
+  .arrow.up {
+    transform: 0deg;
+    transition: transform 0.3s ease-in;
+  }
+  .arrow.down {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in;
+  }

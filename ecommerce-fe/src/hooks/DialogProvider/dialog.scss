@@ -1,0 +1,19 @@
+.MuiDialog-paper {
+    border-radius: 10px;
+}
+
+.MuiDialogActions-root {
+    display: flex;
+    justify-content: center;
+}
+
+.MuiButton-root {
+    margin: 0px 20px;
+}
+.MuiButton-containedError {
+    background-color: red;
+    width: 40px;
+    span {
+        width: 100%;
+    }
+}

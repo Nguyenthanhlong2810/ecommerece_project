@@ -1,0 +1,55 @@
+.sub-menu {
+  /* height: 300px; */
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.375rem;
+  top: 40px;
+  left: 0%;
+  z-index: 10000;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s ease-in, opacity 0.3s ease-in-out 0.3s;
+}
+
+.sub-menu.show {
+  opacity: 1;
+  transition: visibility 0.3s ease-in, opacity 0.2s ease-in-out;
+  visibility: visible;
+}
+.sub-menu li {
+  width: 100%;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+}
+.sub-menu li:hover {
+  background-color: aliceblue;
+}
+.arrow.up {
+  transform: 0deg;
+  transition: transform 0.3s ease-in;
+}
+.arrow.down {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in;
+}
+
+.container-sub-level-2 {
+  height: 100%;
+  background: aliceblue;
+}
+
+.sale-container {
+  position: absolute;
+  width: 3.5rem; /* Equivalent to width: 12rem; */
+  height: 2rem; /* Equivalent to height: 6rem; */
+  top: 0;
+  left: 0;
+  line-height: 2rem;
+  background-color: #f00; /* Equivalent to red-500 in Tailwind */
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+  color: white;
+}

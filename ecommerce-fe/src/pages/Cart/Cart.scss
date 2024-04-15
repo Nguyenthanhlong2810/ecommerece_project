@@ -1,0 +1,8 @@
+.arrow.up {
+    transform: 0deg;
+    transition: transform 0.3s ease-in;
+  }
+  .arrow.down {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in;
+  }

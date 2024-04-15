@@ -1,0 +1,14 @@
+/* Ẩn nút prev khi ở vị trí đầu tiên */
+.swiper-button-prev.swiper-button-disabled {
+    display: none;
+  }
+  
+  /* Ẩn nút next khi ở vị trí cuối cùng */
+  .swiper-button-next.swiper-button-disabled {
+    display: none;
+  }
+  
+  .product-detail-swiper {
+    // max-height: 50%;
+  }
+  

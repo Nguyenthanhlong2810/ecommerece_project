@@ -1,0 +1,21 @@
+.search-bar {
+  background: var(--bg-white);
+}
+
+.button-search {
+  align-self: center;
+  background: var(--bg-light-blue);
+  border-width: 1px;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-right: 4px;
+}
+.input-search {
+  margin-left: 20px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 0 2px;
+  width: 100%;
+  background: transparent;
+  outline: none;
+}

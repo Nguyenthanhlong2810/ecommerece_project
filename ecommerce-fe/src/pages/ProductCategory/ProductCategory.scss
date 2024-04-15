@@ -1,0 +1,18 @@
+.category-swiper{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .swiper-pagination {
+    bottom: 0 !important;
+    left: auto !important;
+    right: 30px !important;
+    position: absolute !important;
+    width: fit-content !important;
+  }
+}
+/* .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+} */
+

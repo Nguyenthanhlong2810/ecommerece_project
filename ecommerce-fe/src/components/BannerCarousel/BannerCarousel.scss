@@ -1,0 +1,29 @@
+.banner-container {
+  max-height: 380px;
+}
+.banner-carousel {
+  border-radius: var(--border-radius);
+  height: 100%;
+}
+.banner-swiper-container {
+  height: 100%;
+  img {
+    border-radius: var(--border-radius);
+    height: 100%;
+  }
+}
+
+.banner-ul {
+  height: 100%;
+}
+.banner-img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.sub-banner {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border-radius);
+}
